@@ -1,0 +1,13 @@
+{
+  "name": "DecoratedLogWithLineNumber",
+  "description": "A simple spare time project adding proper line numbers to log output by decorating angular $log",
+  "version": "1.0.0",
+  "homepage": "https://github.com/angular/decorated-log-with-line-number",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "angular": "1.2.x",
+    "angular-loader": "1.2.x",
+    "angular-mocks": "~1.2.x"
+  }
+}
