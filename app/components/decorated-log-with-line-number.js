@@ -33,17 +33,19 @@ angular.module('DecoratedLogWithLineNumber', []).config(function ($provide) {
             $delegate.info.apply($delegate,appendLineToArgs(arguments));
         };
 
-        decoratedLog.warn = function dInfo() {
+        decoratedLog.warn = function dWarn() {
             $delegate.warn.apply($delegate,appendLineToArgs(arguments));
         };
         
-        decoratedLog.error = function dInfo() {
+        decoratedLog.error = function dError() {
             $delegate.error.apply($delegate,appendLineToArgs(arguments));
         };
 
-        decoratedLog.debug = function dInfo() {
+        decoratedLog.debug = function dDebug() {
             $delegate.debug.apply($delegate,appendLineToArgs(arguments));
         };
+        
+        decoratedLog.$delegate = $delegate;
         
         return decoratedLog;
     });
