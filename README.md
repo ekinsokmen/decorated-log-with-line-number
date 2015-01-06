@@ -1,6 +1,4 @@
 # decorated-log-with-line-number
-==============================
-
 One of the important information a log line may give is the line number where the log was generated. While playing around with angular.js the injected log service $log seem to be lacking proper line number support. This is a simple spare time project adding proper line numbers to log output by decorating angular $log.
 
 This project may be used to get some basic knowledge about:
