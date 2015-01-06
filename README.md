@@ -13,3 +13,6 @@ This project may be used to get some basic knowledge about:
 `Test log at new DecoratedLogDemoCtrl (.../decorated-log-with-line-number/app/app.js:6:10)   angular.js:10126`
 
 `Test debug at new DecoratedLogDemoCtrl (.../decorated-log-with-line-number/app/app.js:7:10) angular.js:10126`
+
+## Demo Application
+[Click here to see it in action](http://ekinsokmen.github.io/decorated-log-with-line-number/)
